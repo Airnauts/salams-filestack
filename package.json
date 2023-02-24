@@ -6,7 +6,7 @@
   "author": "bpsushi <bp.login1@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/core.js --bundle --outfile=dist/core.min.js --target=chrome58,firefox57,safari11,edge16"
+    "build": "esbuild src/test.js --bundle --outfile=dist/core.min.js --target=chrome58,firefox57,safari11,edge16"
   },
   "devDependencies": {
     "esbuild": "^0.17.10",
