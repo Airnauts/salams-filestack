@@ -89,11 +89,11 @@ function setInstance (
 };
 
 
-const salamsFilestack = {
+const airWebflowFilestack = {
     init: initFilestack,
     setInstance: setInstance
 }
 
 // --> Make it global
-window.salamsFilestack = salamsFilestack;
-salamsFilestack
+window.airWebflowFilestack = airWebflowFilestack;
+airWebflowFilestack
