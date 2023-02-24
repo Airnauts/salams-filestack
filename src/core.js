@@ -81,7 +81,7 @@ function setInstance (
     };
 
     // --> Set event listener
-    btn.addEventListener("click", function() {
+    elements.btn.addEventListener("click", function() {
         handleUploadBtnClick();
     });
 
