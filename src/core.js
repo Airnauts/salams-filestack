@@ -94,8 +94,9 @@ const salamsFilestack = {
     setInstance: setInstance
 }
 
-window.salamsFilestack = salamsFilestack;
-console.log('lib imported', window.salamsFilestack, window);
+function bootstrap() {
+    window.salamsFilestack = salamsFilestack;
+    console.log('lib imported', window.salamsFilestack, window);
+}
 
-
-salamsFilestack;
+bootstrap();
