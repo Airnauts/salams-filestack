@@ -77,7 +77,7 @@ function setInstance (
     }
 
     function handleUploadBtnClick() {
-        client.picker({ ...options, onUploadDone: (res) => handleUploadDoneWrapper(res)}).open();
+        client.picker({ ...fsOptions, onUploadDone: (res) => handleUploadDoneWrapper(res)}).open();
     };
 
     // --> Set event listener
