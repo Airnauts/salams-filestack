@@ -16,9 +16,9 @@ JS to handle filestack uploads in webflow project
 
 ```
 <script>
-webflowFilestack.init('YOUR FILESTACK API KEY');
+airWebflowFilestack.init('YOUR FILESTACK API KEY');
 
-webflowFilestack.setInstance({
+airWebflowFilestack.setInstance({
 	btn: document.getElementById("fs-btn-upload"),
 	inputHash: document.getElementById("fs-file-hash"),
  	inputUrl: document.getElementById("fs-file-url"),
