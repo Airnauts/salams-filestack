@@ -94,5 +94,6 @@ const salamsFilestack = {
     setInstance: setInstance
 }
 
+// --> Make it global
 window.salamsFilestack = salamsFilestack;
 salamsFilestack
