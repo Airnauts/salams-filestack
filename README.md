@@ -1,4 +1,4 @@
-# salams-filestack
+# webflow-filestack
 JS to handle filestack uploads in webflow project
 
 # Usage:
