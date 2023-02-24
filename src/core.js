@@ -88,7 +88,11 @@ function setInstance (
     console.log('Filestack instance set', elements, fsOptions);
 };
 
-export {
-    initFilestack,
-    setInstance
-};
+
+const salamsFilestack = {
+    init: initFilestack,
+    setInstance: setInstance
+}
+
+
+window.salamsFilestack = salamsFilestack;
