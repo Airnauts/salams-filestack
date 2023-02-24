@@ -10,7 +10,7 @@ JS to handle filestack uploads in webflow project
 - Button that will trigger files uploads: `<button id="fs-btn-upload">Upload</button>`
 - Input field that will take list of uploaded files hahses, comma separated: `<input type="hidden" id="fs-file-hash" />`
 - Input field that will take list of uploaded files urls, comma separated: `<input type="hidden" id="fs-file-url" />`
-- Container that will list of uploaded files: `<div id="fs-message" ></div>`
+- Container that will list uploaded files: `<div id="fs-message" ></div>`
 
 3. At the bottom ogf your HTML add:
 
